@@ -1,0 +1,71 @@
+/* General */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Login & Signup Cards */
+.form-card {
+    max-width: 450px;
+    margin: 70px auto;
+    padding: 30px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}
+
+/* Buttons */
+.btn-custom {
+    background: #0d6efd;
+    color: white;
+}
+
+.btn-custom:hover {
+    background: #084298;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background: url("../images/gallery-banner.jpg") center/cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 22px;
+}
+
+/* Gallery Cards */
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,.3);
+}
+
+.art-image {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Art Details */
+.art-details img {
+    border-radius: 15px;
+}
